@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, charset=utf-8">
+	<title>Formularios</title>
+	<link rel="icon" type="image/x-icon" href="img/icono.ico">
+	<style>
+		body {background-color: skyblue;}
+		h1 {color:black;
+			font-family: Comic Sans MS;
+		}
+		h2 {color: black;
+		font-family: Comic Sans MS;}
+		p {
+			color: black;
+			font-family: Comic Sans MS;
+			
+		 }
+		 body {
+  					background-image: url("img/formulario.png");
+  					background-repeat: no-repeat;
+  					background-attachment: fixed;
+  					background-size: cover
+
+			}
+			section{
+				color: yellow;
+				font-family: Comic Sans MS;
+			}
+			pre{
+				color: yellow;
+				font-family: Comic Sans MS;
+				background-color: black	;
+				}
+	</style>
+</head>
+<body>
+	<header>
+			<div>
+				<h1 style=" text-align: center; ">Manual de HTML</h1>
+				<hr>
+				<h1 style=" text-align: center; color: black;">Formularios</h1>
+			</div>
+		</header>
+		<nav>
+			<div style="font-size:200%; background-color: lightblue; text-align: center; border: 2px solid black; 
+			border-radius: 10px; padding: 10px; font-family: Comic Sans MS;">
+				<a href="ft.html"> Formato de texto</a>&nbsp;
+				<a href="img.html"> Imágenes</a>&nbsp;
+				<a href="tbl.html"> Tablas</a>&nbsp;
+				<a href="list.html"> Listas</a>&nbsp;
+				<a href="frm.html"> Formularios</a>&nbsp;
+				<a href="media.html"> Media</a>&nbsp;
+			</div>
+		</nav>
+		<hr style="border: 2px solid darkred;">
+		<article>
+			<section>
+				<h2>Formulario 1</h2>
+				<hr style="border: 2px solid darkred;">
+				<form action="/action_page.php" style="font-size:100%; background-color: red; border: 2px solid black;
+				border-radius: 10px;">
+					<label for="fname">Nombre:</label><br>
+			  		<input type="text" id="fname" name="fname" value="John"><br>
+			  		<label for="lname">Apellido:</label><br>
+			  		<input type="text" id="lname" name="lname" value="Doe"><br><br>
+			  		<input type="submit" value="Guardar">
+				</form>
+			</section>
+			<section>
+				<h2>Muestra de Código HTML</h2>
+				<hr style="border: 2px solid darkred;">
+			</section>
+			<section style="background-color: black;">
+				<pre>
+				&lt;form action="/action_page.php" style="font-size:100%; background-color: red; border: 2px solid black;
+				border-radius: 10px;"&gt;
+					&lt;label for="fname">Nombre:&lt;/label>&lt;br&gt;
+			  		&lt;input type="text" id="fname" name="fname" value="John">&lt;br&gt;
+			  		&lt;label for="lname">Apellido:&lt;/label>&lt;br&gt;
+			  		&lt;input type="text" id="lname" name="lname" value="Doe">&lt;br&gt;&lt;br&gt;
+			  		&lt;input type="submit" value="Guardar">
+				&lt;/form&gt;
+				</pre>
+			</section>
+		</article>
+		<aside>
+			
+		</aside>
+
+		<footer>
+			
+		</footer>
+</body>
+</html>
